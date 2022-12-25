@@ -26,7 +26,7 @@
     ></script>
     <title>Joshua Laforest - Web Developer</title>
   </head>
-  <body class="bg-dark text-light">
+  <body class="text-bg-dark">
     <!-- Navigation -->
     <nav
       class="navbar navbar-dark navbar-expand-lg container sticky-top bg-dark"
@@ -305,7 +305,7 @@
 
     <!-- About Section -->
     <section
-      class="container bg-dark text-center d-flex flex-column align-items-center justify-content-center flex-lg-row text-lg-start gap-lg-5 py-4 py-lg-5"
+      class="container bg-dark text-center d-flex flex-column align-items-center justify-content-center flex-lg-row text-lg-start gap-lg-5 py-4 py-lg-5 mb-4"
       id="about"
     >
       <div class="mb-5 mb-lg-0">
@@ -325,6 +325,43 @@
       />
     </section>
     <!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section class="container" id="contact">
+      <h2 class="mb-3">Contact Me</h2>
+      <form action="">
+        <div class="mb-3">
+          <label for="contactName" class="form-label">Name</label>
+          <input
+            type="text"
+            name="contactName"
+            id="contactName"
+            placeholder="John Doe"
+            class="form-control text-bg-dark"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="contactEmail" class="form-label">Email</label>
+          <input
+            type="email"
+            name="contactEmail"
+            id="contactEmail"
+            placeholder="example@example.com"
+            aria-describedby="emailHelp"
+            class="form-control text-bg-dark"
+          />
+          <div id="emailHelp" class="form-text mb-3">
+            We'll never share your email with anyone else.
+          </div>
+          <div class="mb-4">
+            <label for="contactMessage" class="form-label">Message</label>
+            <textarea name="contactMessage" id="contactMessage" placeholder="Enter your message here..." class="form-control text-bg-dark" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+    </section>
+    <!-- End Contact Section -->
 
     <!-- Footer -->
     <footer
