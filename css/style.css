@@ -1,3 +1,7 @@
+:root {
+    --accent: #ffdaa6;
+}
+
 .text-wrapper {
   width: 100%;
   max-width: 425px;
@@ -5,33 +9,49 @@
 
 .img-shadow {
   border: solid 2px black;
-  box-shadow: 0px 0px 0px 6px #ffdaa6, 0px 45px 64px -30px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 0px 6px var(--accent), 0px 45px 64px -30px rgba(0, 0, 0, 0.8);
 }
 
 .border-full {
-  border: solid 1px #ffdaa6;
+  border: solid 1px var(--accent);
 }
 
 .btn-primary {
-  background-color: #ffdaa6;
+  background-color: var(--accent);
   color: black;
-  border: solid 1px #ffdaa6;
+  border: solid 1px var(--accent);
 }
 
 .btn-primary:hover {
   background-color: transparent;
-  border: solid 1px #ffdaa6;
+  border: solid 1px var(--accent);
 }
 
 .btn-secondary {
   background-color: transparent;
-  border: solid 1px #ffdaa6;
+  border: solid 1px var(--accent);
 }
 
 .btn-secondary:hover {
-  background-color: #ffdaa6;
-  border: solid 1px #ffdaa6;
+  background-color: var(--accent);
+  border: solid 1px var(--accent);
   color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--accent);
+}
+
+.fa-brands {
+    color: white;
+}
+
+.fa-brands:hover {
+    color: var(--accent);
 }
 
 .hero-img {
