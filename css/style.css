@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro:wght@700&display=swap');
+
 :root {
     --accent: #ffdaa6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
 }
 
 .text-wrapper {
