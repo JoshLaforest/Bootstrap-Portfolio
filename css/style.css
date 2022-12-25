@@ -7,6 +7,28 @@
     border: solid 1px #FFDAA6;
 }
 
+.btn-primary {
+    background-color: #FFDAA6;
+    color: black;
+    border: solid 1px #FFDAA6;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border: solid 1px #FFDAA6;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: solid 1px #FFDAA6;
+}
+
+.btn-secondary:hover {
+    background-color: #FFDAA6;
+    border: solid 1px #FFDAA6;
+    color: black;
+}
+
 .hero-img {
     width: 100%;
     max-width: 17.5em;
