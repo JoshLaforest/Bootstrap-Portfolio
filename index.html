@@ -87,53 +87,155 @@
     <!-- End Hero Section -->
 
     <!-- Services Section -->
-    <section class="container py-4 mb-4" id="services">
+    <section class="container-sm py-4 mb-4" id="services">
       <h2 class="text-center mb-4">Services</h2>
       <div class="row justify-content-center gap-3">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item text-bg-dark border-0">
+            <h3 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <i class="fa-solid fa-server me-3"></i>
+                Data Management
+              </button>
+            </h3>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item text-bg-dark border-0">
+            <h3 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button border-full collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <i class="fa-solid fa-laptop-code me-3"></i>
+                Web Development
+              </button>
+            </h3>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item text-bg-dark border-0">
+            <h3 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button border-full collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <i class="fa-solid fa-screwdriver-wrench me-3"></i>
+                Website Maintenance
+              </button>
+            </h3>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Card 1 -->
-        <div
+        <!-- <div
           class="card bg-dark text-center d-flex flex-column justify-content-center align-items-center col-12 col-md-5 col-lg-3 p-3 p-lg-1 py-lg-4 border-full"
         >
           <div class="card-body d-flex flex-column align-items-center justify-content-md-between">
             <i class="fa-solid fa-server fa-2xl mb-4 py-1"></i>
-            <h5 class="card-title mb-2">Database Management</h5>
+            <h5 class="card-title">Database Management</h5>
             <p class="card-text mb-4 text-wrapper">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
             <a href="#" class="btn btn-primary">View Details</a>
           </div>
-        </div>
+        </div> -->
         <!-- End Card 1 -->
         <!-- Card 2 -->
-        <div
+        <!-- <div
           class="card bg-dark text-center d-flex flex-column justify-content-center align-items-center col-12 col-md-5 col-lg-3 p-3 p-lg-1 py-lg-4 border-full"
         >
           <div class="card-body d-flex flex-column align-items-center justify-content-md-between">
             <i class="fa-solid fa-laptop-code fa-2xl mb-4 py-1"></i>
-            <h5 class="card-title mb-2">Web Development</h5>
+            <h5 class="card-title">Web Development</h5>
             <p class="card-text mb-4 text-wrapper">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
             <a href="#" class="btn btn-primary">View Details</a>
           </div>
-        </div>
+        </div> -->
         <!-- End Card 2 -->
         <!-- Card 3 -->
-        <div
+        <!-- <div
           class="card bg-dark text-center d-flex flex-column justify-content-center align-items-center col-12 col-md-5 col-lg-3 p-3 p-lg-1 py-lg-4 border-full"
         >
           <div class="card-body d-flex flex-column align-items-center justify-content-md-between">
             <i class="fa-solid fa-screwdriver-wrench fa-2xl mb-4 py-1"></i>
-            <h5 class="card-title mb-2">Website Maintenance</h5>
+            <h5 class="card-title">Website Maintenance</h5>
             <p class="card-text mb-4 text-wrapper">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
             <a href="#" class="btn btn-primary">View Details</a>
           </div>
-        </div>
+        </div> -->
       </div>
       <!-- End Card 3 -->
     </section>
@@ -355,7 +457,14 @@
           </div>
           <div class="mb-4">
             <label for="contactMessage" class="form-label">Message</label>
-            <textarea name="contactMessage" id="contactMessage" placeholder="Enter your message here..." class="form-control text-bg-dark" cols="30" rows="10"></textarea>
+            <textarea
+              name="contactMessage"
+              id="contactMessage"
+              placeholder="Enter your message here..."
+              class="form-control text-bg-dark"
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Send Message</button>
         </div>
@@ -369,20 +478,20 @@
     >
       <!-- Social Links -->
       <div>
-      <a href="">
-        <i class="fa-brands fa-facebook fa-xl fa-fw"></i>
-      </a>
-      <a href="">
-        <i class="fa-brands fa-instagram fa-xl mx-4 fa-fw"></i>
-      </a>
-      <a href="">
-        <i class="fa-brands fa-twitter fa-xl fa-fw"></i>
-      </a>
-    </div>
+        <a href="">
+          <i class="fa-brands fa-facebook fa-xl fa-fw"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-instagram fa-xl mx-4 fa-fw"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter fa-xl fa-fw"></i>
+        </a>
+      </div>
       <!-- End Social Links -->
 
       <!-- Copyright -->
-    <p>Copyright &#169; 2022. Joshua Laforest.</p>
+      <p>Copyright &#169; 2022. Joshua Laforest.</p>
       <!-- Copyright -->
     </footer>
     <!-- End Footer -->

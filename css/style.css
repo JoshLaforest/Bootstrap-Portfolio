@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro:wght@700&display=swap");
 
 :root {
-    --accent: #ffdaa6;
+  --accent: #ffdaa6;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Code Pro', monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Code Pro", monospace;
 }
 
 p {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .text-wrapper {
@@ -19,7 +24,8 @@ p {
 
 .img-shadow {
   border: solid 2px black;
-  box-shadow: 0px 0px 0px 6px var(--accent), 0px 45px 64px -30px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 0px 6px var(--accent),
+    0px 45px 64px -30px rgba(0, 0, 0, 0.8);
 }
 
 .border-full {
@@ -49,24 +55,55 @@ p {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-link:hover {
-    color: var(--accent);
-}
-
-.fa-brands {
-    color: white;
-}
-
-.fa-brands:hover {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .hero-img {
   width: 100%;
   max-width: 15em;
+}
+
+.container-sm {
+  width: 100%;
+  max-width: 900px;
+}
+
+.accordion-item {
+  border: solid 1px var(--accent);
+}
+
+.accordion-button {
+  font-size: 1.1rem;
+  border: solid 1px var(--accent);
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+    border: solid 1px var(--accent);
+}
+
+.accordion-button:is(.collapsed) {
+  color: inherit;
+  background: transparent;
+  color: var(--accent);
+}
+
+.accordion-button:not(.collapsed) {
+  color: inherit;
+  background: var(--accent);
+  color: black;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.fa-brands:hover {
+  color: var(--accent);
 }
 
 @media screen and (max-width: 768px) {
