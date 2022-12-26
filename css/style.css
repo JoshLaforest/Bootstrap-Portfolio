@@ -113,7 +113,6 @@ a {
 .form-input:focus,
 .form-input:active {
     border: solid 1px var(--accent);
-    outline: solid var(--accent);
 }
 
 .fa-brands {
