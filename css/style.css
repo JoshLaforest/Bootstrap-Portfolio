@@ -45,22 +45,30 @@ a {
   background-color: var(--accent);
   color: black;
   border: solid 1px var(--accent);
+  transition: transform ease .3s;
 }
 
 .btn-primary:hover {
-  background-color: transparent;
   border: solid 1px var(--accent);
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .7);
+  background-color: var(--accent);
+  color: black;
+  transform: translateY(-4px);
 }
 
 .btn-secondary {
-  background-color: transparent;
-  border: solid 1px var(--accent);
+  background-color: #FFF3E2;
+  border: solid 1px #FFF3E2;
+  color: black;
+  transition: transform ease .3s;
 }
 
 .btn-secondary:hover {
-  background-color: var(--accent);
-  border: solid 1px var(--accent);
+  background-color: #FFF3E2;
+  border: solid 1px #FFF3E2;
   color: black;
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .7);
+  transform: translateY(-4px);
 }
 /* End Button Styling */
 
