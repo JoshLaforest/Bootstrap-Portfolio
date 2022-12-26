@@ -12,6 +12,7 @@ h4,
 h5,
 h6 {
   font-family: "Source Code Pro", monospace;
+  color: #FFF3E2;
 }
 
 p {
@@ -133,7 +134,7 @@ a {
     border: solid 1px var(--accent);
 }
 
-/* Social Media Icon Styling */
+/* Icon Styling */
 .fa-brands {
   color: white;
 }
@@ -141,7 +142,13 @@ a {
 .fa-brands:hover {
   color: var(--accent);
 }
-/* End Social Media Icon Styling */
+
+.fa-pull-left,
+.fa-pull-right,
+.lead {
+    color: #FFF3E2;
+}
+/* Icon Styling */
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
