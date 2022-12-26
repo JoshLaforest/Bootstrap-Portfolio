@@ -98,6 +98,10 @@ a {
   color: black;
 }
 
+.carousel-img {
+    max-width: 12em;
+}
+
 .fa-brands {
   color: white;
 }

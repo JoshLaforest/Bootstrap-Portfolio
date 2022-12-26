@@ -81,7 +81,7 @@
       <img
         src="./images/avatar-lg.jpg"
         alt=""
-        class="img-fluid rounded-pill hero-img mb-2 mb-md-0 img-shadow"
+        class="img-fluid rounded hero-img mb-2 mb-md-0 img-shadow"
       />
     </section>
     <!-- End Hero Section -->
@@ -377,10 +377,79 @@
       <img
         src="./images/avatar-sm.jpg"
         alt="Joshua Laforest"
-        class="img-fluid rounded-pill img-shadow"
+        class="img-fluid rounded img-shadow"
       />
     </section>
     <!-- End About Section -->
+
+    <!-- Testimonial Section -->
+    <section class="container">
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item vh-100 active">
+          <div>
+            <img src="./images/testimonial-img-1.jpg" alt="" class="img-fluid rounded img-shadow carousel-img">
+            <p class="text-center text-wrapper">
+                <i class="fa-solid fa-quote-left fa-border fa-pull-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nihil magnam unde expedita fugit rerum, reiciendis quas aspernatur, assumenda beatae odio! Dolorem aperiam sequi repudiandae id laborum error cum ex?
+                <i class="fa-solid fa-quote-right fa-border fa-pull-right"></i>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</section>
+    <!-- End Testimonial Section -->
 
     <!-- Contact Section -->
     <section class="container mb-4" id="contact">
