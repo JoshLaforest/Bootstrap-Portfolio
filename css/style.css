@@ -58,6 +58,14 @@ a {
   text-decoration: none;
 }
 
+.navbar-brand {
+    transition: color ease .3s;
+}
+
+.navbar-brand:hover {
+    color: var(--accent);
+}
+
 .nav-link:hover {
   color: var(--accent);
 }
