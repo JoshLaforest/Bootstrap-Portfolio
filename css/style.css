@@ -23,9 +23,9 @@ a {
     text-decoration: none;
   }
 
-.text-wrapper {
-  width: 100%;
-  max-width: 425px;
+.text-bg-dark {
+    background-color: #111225 !important;
+    color: #DBD6CE !important;
 }
 /* End Typography */
 
@@ -39,6 +39,11 @@ a {
 .border-full {
   border: solid 1px var(--accent);
 }
+
+.text-wrapper {
+    width: 100%;
+    max-width: 425px;
+  }
 /* End Utility */
 
 /* Button Styling */
@@ -80,6 +85,10 @@ a {
 
 .navbar-brand:hover {
     color: var(--accent);
+}
+
+.nav-link {
+    color: #DBD6CE;
 }
 
 .nav-link:hover {
