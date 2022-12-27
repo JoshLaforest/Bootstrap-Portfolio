@@ -155,11 +155,12 @@ a {
 
 /* Icon Styling */
 .fa-brands {
-  color: white;
+  color: #FFF3E2;
+  transition: color ease .3s;
 }
 
 .fa-brands:hover {
-  color: var(--accent);
+    color: var(--accent);
 }
 
 .fa-pull-left,
