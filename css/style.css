@@ -148,6 +148,11 @@ a {
 .lead {
     color: #FFF3E2;
 }
+
+.skills-icon {
+    font-size: 5em;
+    color: var(--accent);
+}
 /* Icon Styling */
 
 /* Media Queries */
