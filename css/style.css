@@ -60,6 +60,7 @@ a {
   background-color: var(--accent);
   color: black;
   transform: translateY(-4px);
+  transform: scale(1.1);
 }
 
 .btn-secondary {
@@ -75,6 +76,7 @@ a {
   color: black;
   box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .7);
   transform: translateY(-4px);
+  transform: scale(1.1);
 }
 /* End Button Styling */
 
