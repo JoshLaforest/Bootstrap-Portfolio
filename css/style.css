@@ -52,6 +52,7 @@ a {
   color: black;
   border: solid 1px var(--accent);
   transition: transform ease .3s;
+  padding: .5em 1.5em;
 }
 
 .btn-primary:hover {
@@ -63,11 +64,18 @@ a {
   transform: scale(1.1);
 }
 
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: var(--accent) !important;
+    color: black !important;
+}
+
 .btn-secondary {
   background-color: #FFF3E2;
   border: solid 1px #FFF3E2;
   color: black;
   transition: transform ease .3s;
+  padding: .5em 1.5em;
 }
 
 .btn-secondary:hover {
