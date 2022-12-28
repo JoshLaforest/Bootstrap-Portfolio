@@ -116,6 +116,8 @@ a {
   max-width: 750px;
 }
 
+
+
 /* Accordian Styling */
 .accordion-item {
   border: solid 1px var(--accent);
@@ -144,8 +146,8 @@ a {
 }
 /* End Accordian Styling */
 
-.carousel-img { /* Keeps the carousel image properly contained */
-    max-width: 12em;
+.carousel-img { 
+    max-height: 15em;
 }
 
 .form-input:focus,
