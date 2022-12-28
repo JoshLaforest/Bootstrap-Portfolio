@@ -104,6 +104,12 @@ a {
 .nav-link:hover {
   color: var(--accent);
 }
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  border: solid 1px var(--accent);
+  color: var(--accent);
+}
 /* End Navbar Styling */
 
 .hero-img {
