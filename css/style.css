@@ -19,10 +19,6 @@ p {
   font-family: "Inter", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
 .text-bg-dark {
   background-color: #111225 !important;
   color: #dbd6ce !important;
@@ -97,10 +93,13 @@ a {
   color: var(--accent);
 }
 
+a,
 .nav-link {
   color: #dbd6ce;
+  text-decoration: none;
 }
 
+a:hover,
 .nav-link:hover {
   color: var(--accent);
 }
@@ -162,15 +161,6 @@ a {
 }
 
 /* Icon Styling */
-.fa-brands {
-  color: #fff3e2;
-  transition: color ease 0.3s;
-}
-
-.fa-brands:hover {
-  color: var(--accent);
-}
-
 .fa-pull-left,
 .fa-pull-right,
 .lead {
