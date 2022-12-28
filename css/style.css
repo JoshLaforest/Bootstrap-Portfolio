@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Inter&display=swap");
 
 :root {
   --accent: #ffdaa6;
@@ -11,8 +11,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Fira Code', monospace;
-  color: #FFF3E2;
+  font-family: "Fira Code", monospace;
+  color: #fff3e2;
 }
 
 p {
@@ -20,12 +20,12 @@ p {
 }
 
 a {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
 .text-bg-dark {
-    background-color: #111225 !important;
-    color: #DBD6CE !important;
+  background-color: #111225 !important;
+  color: #dbd6ce !important;
 }
 /* End Typography */
 
@@ -41,9 +41,9 @@ a {
 }
 
 .text-wrapper {
-    width: 100%;
-    max-width: 425px;
-  }
+  width: 100%;
+  max-width: 425px;
+}
 /* End Utility */
 
 /* Button Styling */
@@ -51,13 +51,13 @@ a {
   background-color: var(--accent);
   color: black;
   border: solid 1px var(--accent);
-  transition: transform ease .3s;
-  padding: .5em 1.5em;
+  transition: transform ease 0.3s;
+  padding: 0.5em 1.5em;
 }
 
 .btn-primary:hover {
   border: solid 1px var(--accent);
-  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .7);
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.7);
   background-color: var(--accent);
   color: black;
   transform: translateY(-4px);
@@ -66,23 +66,23 @@ a {
 
 .btn-primary:active,
 .btn-primary:focus {
-    background-color: var(--accent) !important;
-    color: black !important;
+  background-color: var(--accent) !important;
+  color: black !important;
 }
 
 .btn-secondary {
-  background-color: #FFF3E2;
-  border: solid 1px #FFF3E2;
+  background-color: #fff3e2;
+  border: solid 1px #fff3e2;
   color: black;
-  transition: transform ease .3s;
-  padding: .5em 1.5em;
+  transition: transform ease 0.3s;
+  padding: 0.5em 1.5em;
 }
 
 .btn-secondary:hover {
-  background-color: #FFF3E2;
-  border: solid 1px #FFF3E2;
+  background-color: #fff3e2;
+  border: solid 1px #fff3e2;
   color: black;
-  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .7);
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.7);
   transform: translateY(-4px);
   transform: scale(1.1);
 }
@@ -90,15 +90,15 @@ a {
 
 /* Navbar Styling */
 .navbar-brand {
-    transition: color ease .3s;
+  transition: color ease 0.3s;
 }
 
 .navbar-brand:hover {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .nav-link {
-    color: #DBD6CE;
+  color: #dbd6ce;
 }
 
 .nav-link:hover {
@@ -106,17 +106,17 @@ a {
 }
 /* End Navbar Styling */
 
-.hero-img {  /* Keeps the hero image properly sized */
+.hero-img {
+  /* Keeps the hero image properly sized */
   width: 100%;
   max-width: 15em;
 }
 
-.container-sm { /* Custom container */ 
+.container-sm {
+  /* Custom container */
   width: 100%;
   max-width: 750px;
 }
-
-
 
 /* Accordian Styling */
 .accordion-item {
@@ -130,7 +130,7 @@ a {
 
 .accordion-button:focus,
 .accordion-button:active {
-    border: solid 1px var(--accent);
+  border: solid 1px var(--accent);
 }
 
 .accordion-button:is(.collapsed) {
@@ -146,34 +146,34 @@ a {
 }
 /* End Accordian Styling */
 
-.carousel-img { 
-    max-height: 15em;
+.carousel-img {
+  max-height: 15em;
 }
 
 .form-input:focus,
 .form-input:active {
-    border: solid 1px var(--accent);
+  border: solid 1px var(--accent);
 }
 
 /* Icon Styling */
 .fa-brands {
-  color: #FFF3E2;
-  transition: color ease .3s;
+  color: #fff3e2;
+  transition: color ease 0.3s;
 }
 
 .fa-brands:hover {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .fa-pull-left,
 .fa-pull-right,
 .lead {
-    color: #FFF3E2;
+  color: #fff3e2;
 }
 
 .skills-icon {
-    font-size: 5em;
-    color: var(--accent);
+  font-size: 5em;
+  color: var(--accent);
 }
 /* Icon Styling */
 
