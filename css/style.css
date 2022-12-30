@@ -168,8 +168,8 @@ a:hover,
 
 .card-img-top {
   background-color: var(--accent);
-  border-radius: .3em;
 }
+
 
 .form-input:focus,
 .form-input:active {
