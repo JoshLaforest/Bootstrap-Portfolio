@@ -1,5 +1,6 @@
 :root {
   --accent: #ffdaa6;
+  --text-color: #dbd6ce;
   --heading: 'Chubbo', sans-serif;
   --body-text: 'Supreme', sans-serif;
 }
@@ -21,8 +22,8 @@ p {
 }
 
 .text-bg-dark {
-  background-color: #111225 !important;
-  color: #dbd6ce !important;
+  background-color: #12131b !important;
+  color: var(--text-color) !important;
 }
 /* End Typography */
 
