@@ -162,6 +162,15 @@ a:hover,
   max-height: 15em;
 }
 
+.card {
+  padding: 0;
+}
+
+.card-img-top {
+  background-color: var(--accent);
+  border-radius: .3em;
+}
+
 .form-input:focus,
 .form-input:active {
   border: solid 1px var(--accent);
