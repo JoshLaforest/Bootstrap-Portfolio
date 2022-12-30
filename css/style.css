@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Inter&display=swap");
-
 :root {
   --accent: #ffdaa6;
+  --heading: 'Chubbo', sans-serif;
+  --body-text: 'Supreme', sans-serif;
 }
 
 /* Typography */
@@ -11,12 +11,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fira Code", monospace;
+  font-family: var(--heading);
   color: #fff3e2;
 }
 
 p {
-  font-family: "Inter", sans-serif;
+  font-family: var(--body-text);
 }
 
 .text-bg-dark {
