@@ -89,6 +89,7 @@ p {
 /* Navbar Styling */
 .navbar-brand {
   transition: color ease 0.3s;
+  color: var(--text-color);
 }
 
 .navbar-brand:hover {
