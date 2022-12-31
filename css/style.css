@@ -2,8 +2,8 @@
   --accent: #ffdaa6;
   --text-color: #dbd6ce;
   --bg-color: #1d072a;
-  --heading: 'Chubbo', sans-serif;
-  --body-text: 'Supreme', sans-serif;
+  --heading: "Chubbo", sans-serif;
+  --body-text: "Supreme", sans-serif;
 }
 
 /* Typography */
@@ -30,8 +30,8 @@ p {
 
 /* Utility */
 .img-shadow {
-  border: solid .3em var(--bg-color);
-  box-shadow: .4em .4em 0 .1em var(--accent);
+  border: solid 0.3em var(--bg-color);
+  box-shadow: 0.4em 0.4em 0 0.1em var(--accent);
 }
 
 .border-full {
@@ -98,11 +98,14 @@ a,
 .nav-link {
   color: #dbd6ce;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 a:hover,
 .nav-link:hover {
   color: var(--accent);
+  text-decoration: underline var(--accent) .1em;
+  text-underline-offset: 0.4em;
 }
 
 .navbar-toggler:active,
@@ -163,7 +166,6 @@ a:hover,
 .card-img-top {
   background-color: var(--accent);
 }
-
 
 .form-input:focus,
 .form-input:active {
