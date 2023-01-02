@@ -101,7 +101,10 @@ a,
   transition: all 0.3s ease;
 }
 
-a:hover,
+a:hover {
+  color: var(--accent);
+}
+
 .nav-link:hover {
   color: var(--accent);
   text-decoration: underline var(--accent) .1em;
